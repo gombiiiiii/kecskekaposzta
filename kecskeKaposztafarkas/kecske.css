@@ -1,6 +1,9 @@
 aside img{
     width: 110px;
 }
+article img{
+    width: 110px;
+}
 main , header ,aside ,footer,article{
 
     border: 1px solid lightgray;
