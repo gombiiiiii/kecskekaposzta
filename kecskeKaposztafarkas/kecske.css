@@ -1,0 +1,43 @@
+aside img{
+    width: 110px;
+}
+main , header ,aside ,footer,article{
+
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+main{
+
+    display:grid;
+    grid-template-columns: "1fr 3fr 1fr";
+    grid-template-areas: "h h h"
+                         "asb ar asj "
+                         "f f f";
+    grid-gap: 10px;          /* gridek közt hoz létre közt*/      
+
+}
+header{
+    grid-area: h;
+}
+
+#bal{
+    grid-area: asb;
+}
+
+article{
+    grid-area: ar;
+}
+
+#jobb{
+    grid-area: asj;
+}
+
+footer{
+    grid-area: f;
+}
+
+.kiemel{
+    border: 2px solid red;
+    cursor: grab;
+}
