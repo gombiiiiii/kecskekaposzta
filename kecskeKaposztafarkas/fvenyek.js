@@ -20,7 +20,7 @@ function init() {
         tomb.push(event.target.src)
 
 
-    });
+    }); 
 
 
     //ez itt egy nyílfügvény
